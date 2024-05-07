@@ -26,10 +26,10 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use super::Solution;
+    use super::*;
 
     #[test]
-    fn two_sum() {
+    fn it_works() {
         let sum = vec![1, 2, 3, 4];
         let target = 6;
         assert_eq!(Solution::two_sum(sum, target), [1, 3]);
